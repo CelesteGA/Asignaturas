@@ -1,0 +1,87 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #a19dca;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+a.active {
+    color:#5ce0aa;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color:#eadbf5;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#CulturaE{
+  color:#e7bf5a;
+}
+
+#Program{
+  color:#ecee78;
+}
+
+#Quimica{
+  color:#b8d4d7;
+}
+
+#Metodos{
+  color:#86e772;
+}
+
+.imgCultura{
+  background-image: url("../Img/Cultura_Empresarial.jpg");
+  background-size: contain;
+  }
+.imgProgram{
+  background-image: url("../Img/Programacion_Web.jpg");
+  background-size: contain;
+}
+.imgQuimica{
+  background-image: url("../Img/Quimica.jpg");
+  background-size: contain;
+}
+.imgMetodos{
+  background-image: url("../Img/Metodos_Num.jfif");
+  background-size: contain;
+}
